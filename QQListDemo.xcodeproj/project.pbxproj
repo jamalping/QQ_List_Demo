@@ -14,6 +14,8 @@
 		00B2ADC21B04A3A200A5C95F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B2ADC11B04A3A200A5C95F /* Images.xcassets */; };
 		00B2ADC51B04A3A200A5C95F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B2ADC31B04A3A200A5C95F /* LaunchScreen.xib */; };
 		00B2ADD11B04A3A200A5C95F /* QQListDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B2ADD01B04A3A200A5C95F /* QQListDemoTests.m */; };
+		00B2ADDB1B04A42100A5C95F /* informationSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00B2ADDA1B04A42100A5C95F /* informationSet.plist */; };
+		00B2ADDE1B04A6A200A5C95F /* SectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B2ADDD1B04A6A200A5C95F /* SectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		00B2ADCA1B04A3A200A5C95F /* QQListDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQListDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B2ADCF1B04A3A200A5C95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00B2ADD01B04A3A200A5C95F /* QQListDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQListDemoTests.m; sourceTree = "<group>"; };
+		00B2ADDA1B04A42100A5C95F /* informationSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = informationSet.plist; sourceTree = "<group>"; };
+		00B2ADDC1B04A6A200A5C95F /* SectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionView.h; sourceTree = "<group>"; };
+		00B2ADDD1B04A6A200A5C95F /* SectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		00B2ADB31B04A3A200A5C95F /* QQListDemo */ = {
 			isa = PBXGroup;
 			children = (
+				00B2ADDC1B04A6A200A5C95F /* SectionView.h */,
+				00B2ADDD1B04A6A200A5C95F /* SectionView.m */,
+				00B2ADDA1B04A42100A5C95F /* informationSet.plist */,
 				00B2ADB81B04A3A200A5C95F /* AppDelegate.h */,
 				00B2ADB91B04A3A200A5C95F /* AppDelegate.m */,
 				00B2ADBB1B04A3A200A5C95F /* ViewController.h */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B2ADDB1B04A42100A5C95F /* informationSet.plist in Resources */,
 				00B2ADC01B04A3A200A5C95F /* Main.storyboard in Resources */,
 				00B2ADC51B04A3A200A5C95F /* LaunchScreen.xib in Resources */,
 				00B2ADC21B04A3A200A5C95F /* Images.xcassets in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B2ADDE1B04A6A200A5C95F /* SectionView.m in Sources */,
 				00B2ADBD1B04A3A200A5C95F /* ViewController.m in Sources */,
 				00B2ADBA1B04A3A200A5C95F /* AppDelegate.m in Sources */,
 				00B2ADB71B04A3A200A5C95F /* main.m in Sources */,
